@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 export default function Home() {
   return (
     <div className="p-3">
@@ -14,7 +13,9 @@ export default function Home() {
       <p>API_KEY={process.env.NEXT_PUBLIC_STRIPE_PUBLIC_KEY}</p>
 
       <div className="p-3">끼얏호우!</div>
-      <div className="background-red-500 w-32 h-32 relative"></div>
+      <div className="bg-gray-500 w-32 h-16 rounded-md text-white items-center flex justify-center">
+        ■■■■■■
+      </div>
     </div>
   );
 }
